@@ -2,45 +2,21 @@
   "name": "lukesapp",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https://lukegsdrf.github.io/lukesapp",  
+  "homepage": "https://lukegsdrf.github.io/lukesapp",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"  
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "next": "^15.3.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
     "react-router-dom": "^7.5.3"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^13.4.0",
-    "gh-pages": "^6.3.0",
-    "tailwindcss": "^3.2.0",
-    "typescript": "^5"
-=======
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "next": "^13.4.0"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -51,7 +27,7 @@
     "tailwindcss": "^3.2.0",
     "eslint": "^9",
     "eslint-config-next": "^13.4.0",
-    "@eslint/eslintrc": "^3"
->>>>>>> 8d6a17bee92483295fc9cc3582a07c8be16d6e56
+    "@eslint/eslintrc": "^3",
+    "gh-pages": "^6.3.0"
   }
 }

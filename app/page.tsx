@@ -14,8 +14,11 @@ const Page = () => {
   return (
     <div className="centered-container">
       <h1>Hey, I'm Luke!</h1>
-      <button className="action-button" onClick={handleClick}>
-        Go to About Me
+      <button
+        className="action-button red-button"
+        onClick={handleClick}
+      >
+        About Me
       </button>
     </div>
   );
