@@ -4,7 +4,6 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import './Page.css';
 
 const AboutMe: React.FC = () => {
   const router = useRouter();

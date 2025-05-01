@@ -2,6 +2,7 @@
   "name": "lukesapp",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "https://lukegsdrf.github.io/lukesapp",
   "scripts": {
     "dev": "next dev",
